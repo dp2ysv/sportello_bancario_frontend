@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sportello Bancario</title>
+    <link rel="stylesheet"  href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sportello Bancario</h1>
+        <div id="saldo">Saldo: €0</div>
+        <input type="number" id="importo" placeholder="Importo">
+        <button onclick="deposita()">Deposita</button>
+        <button onclick="ritira()">Ritira</button>
+        <button onclick="bonifico()">Bonifico</button>
+        <input type="text" id="contoDestinazione" placeholder="Conto Destinazione">
+        <button onclick="esci()">Esci</button>
+        <div id="feedback"></div>
+    </div>
+</body>
+
+</html>
